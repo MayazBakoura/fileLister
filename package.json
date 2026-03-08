@@ -10,7 +10,10 @@
   "author": "",
   "license": "ISC",
   "bin": {
-    "nls":"index.js"
+    "nls": "index.js"
   },
-  "type": "commonjs"
+  "type": "commonjs",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
 }
